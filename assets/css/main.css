@@ -600,7 +600,7 @@ input, select, textarea {
 
 /* Icon */
 
-	.icon {
+	.icon, .arrows {
 		text-decoration: none;
 		border-bottom: none;
 		position: relative;
@@ -617,6 +617,20 @@ input, select, textarea {
 			text-transform: none !important;
 			font-family: 'Font Awesome 5 Free';
 			font-weight: 400;
+		}
+
+		.arrows:before {
+			-moz-osx-font-smoothing: grayscale;
+			-webkit-font-smoothing: antialiased;
+			display: inline-block;
+			font-style: normal;
+			font-variant: normal;
+			text-rendering: auto;
+			line-height: 5;
+			text-transform: none !important;
+			font-family: 'Font Awesome 5 Free';
+			font-weight: 400;
+			font-size: 5em;
 		}
 
 		.icon > .label {
